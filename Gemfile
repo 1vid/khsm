@@ -16,7 +16,7 @@ gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails'
 gem 'russian'
 
-gem 'pg'
+gem 'pg', '~> 0.15'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.13'
